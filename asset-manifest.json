@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/Edwin/static/css/main.507a3381.css",
+    "main.js": "/Edwin/static/js/main.4aef7ebd.js",
+    "static/media/pic2.jpg": "/Edwin/static/media/pic2.ac62aeb854d950cbe2c8.jpg",
+    "static/media/pic1.jpg": "/Edwin/static/media/pic1.a52a20a6ad4ab0c5f85d.jpg",
+    "static/media/pic3.jpg": "/Edwin/static/media/pic3.442020bf8c82417fb2f3.jpg",
+    "static/media/pic5.jpg": "/Edwin/static/media/pic5.7e54d93fe3d21411d6b9.jpg",
+    "static/media/pic6.jpg": "/Edwin/static/media/pic6.506f8cb9231a1e94b337.jpg",
+    "static/media/pic4.jpg": "/Edwin/static/media/pic4.596259cdb38ca05e4b3f.jpg",
+    "index.html": "/Edwin/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.507a3381.css",
+    "static/js/main.4aef7ebd.js"
+  ]
+}
