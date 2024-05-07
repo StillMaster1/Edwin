@@ -1,47 +1,56 @@
-const logotext = "JOHN";
+import yourImage from './assets/images/pic1.jpg';
+import pic2 from './assets/images/pic2.jpg';
+import pic3 from './assets/images/pic3.jpg';
+import pic4 from './assets/images/pic4.jpg';
+import pic5 from './assets/images/pic5.jpg';
+import pic6 from './assets/images/pic6.jpg';
+
+
+
+const logotext = "Edwin le Cointre";
 const meta = {
-    title: "John Doe",
+    title: "Edwin le Cointre",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Edwin le Cointre",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "I Love coding...",
+        second: "I Love Airsoft",
+        third: "But Family Always Come First",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Passionate and dedicated, I am a diligent coder who thrives on challenges and finds joy in unraveling complex problems. With a fervent love for coding, I embark on each project with a relentless work ethic, constantly seeking innovative solutions and pushing boundaries. Beyond the screen, I find exhilaration in the real-world strategy and teamwork of airsoft, where every mission demands quick thinking and precise execution. Whether immersed in lines of code or navigating the tactical intricacies of a battlefield, my commitment to excellence and problem-solving prowess remains unwavering",
+    your_img_url: yourImage,
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "Who Am I ? and achievements...",
+    aboutme: `Served on Belgium Campus ITversity's SRC, honing communication and teamwork skills. Learned to articulate ideas, listen actively, and resolve conflicts. Emphasized empathy and collaboration for effective decision-making....Active member of Belgium Campus ITversity's SRC, leading efforts to address student concerns and plan events. Skilled in constructive dialogue with students and faculty. Seeking 2024 SRC President role for continued leadership and impact... \n \n Attained a First Dan Black Belt in Karate following 13 years of dedicated training, leading a class of 40+ students as a sensei. Karate instilled self-discipline, patience, and goal setting, benefiting my academic and professional pursuits...Attained a First Dan Black Belt in Karate following 13 years of dedicated training, leading a class of 40+ students as a sensei. Karate instilled self-discipline, patience, and goal setting, benefiting my academic and professional pursuits.  `,
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
+        jobtitle: "Employee • Customer Service",
+        where: "Santas Warehouse",
+        date: "November - December 2022 & 2023",
     },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
+    // {
+    //     jobtitle: "Designer of week",
+    //     where: "Jamalya",
+    //     date: "2019",
+    // },
+    // {
+    //     jobtitle: "Designer of week",
+    //     where: "ALquds",
+    //     date: "2019",
+    // },
 ];
 
 const skills = [{
-        name: "Python",
+        name: "C#",
         value: 90,
     },
     {
-        name: "Djano",
+        name: "C++",
         value: 85,
     },
     {
@@ -49,12 +58,32 @@ const skills = [{
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
+        name: "HTML",
+        value: 70,
     },
     {
-        name: "Jquery",
+        name: "CSS",
+        value: 75,
+    },
+    {
+        name: "SQL",
         value: 85,
+    },
+    {
+        name: ".NET",
+        value: 65,
+    },
+    {
+        name: "Full Stack Development",
+        value: 68,
+    },
+    {
+        name: "Problem Solving",
+        value: 70,
+    },
+    {
+        name: "Communication",
+        value: 80,
     },
 ];
 
@@ -73,66 +102,32 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: pic2,
+        description: "I do play the occasional paddle",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: pic5,
+        description: "I love Water Sports.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: pic3,
+        description: "Airsoft is my biggest Hobby",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: pic6,
+        description: "Love Boating",
         link: "#",
     },
 
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: pic4,
+        description: "Family Always First",
         link: "#",
     },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+
 ];
 
 const contactConfig = {
