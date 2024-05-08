@@ -102,7 +102,7 @@ export const ContactUs = () => {
               <strong>Phone:</strong>{"  078 607 7989"}
               <br />
               <br />
-              <strong>Address:</strong>{"  441 Bramble Street Waterkloof glen Pretoria, 0002"}
+              <strong>Address:</strong>{"   Waterkloof glen Pretoria, 0002"}
 
             </address>
             

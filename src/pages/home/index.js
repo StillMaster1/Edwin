@@ -17,7 +17,7 @@ export const Home = () => {
         <div className="intro_sec d-block d-lg-flex align-items-center ">
           <div
             className="h_bg-image order-1 order-lg-2 h-100 "
-            style={{ backgroundImage: `url(${introdata.your_img_url})` }}
+            style={{ backgroundImage: `url(${introdata.your_img_url})` , width:'30%'}}
           ></div>
           <div className="text order-2 order-lg-1 h-100 d-lg-flex justify-content-center">
             <div className="align-self-center ">
@@ -30,6 +30,7 @@ export const Home = () => {
                         introdata.animated.first,
                         introdata.animated.second,
                         introdata.animated.third,
+                        introdata.animated.fourth,
                       ],
                       autoStart: true,
                       loop: true,
@@ -41,7 +42,7 @@ export const Home = () => {
                 <div className="intro_btn-action pb-5">
                   <Link to="/portfolio" className="text_2">
                     <div id="button_p" className="ac_btn btn ">
-                      Day in the Life
+                      Day in my Life
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>
